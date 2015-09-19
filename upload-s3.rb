@@ -19,4 +19,3 @@ end
 
 s3 = UploadS3.new(ENV['FILE_NAME'])
 p s3.upload
-# puts upload_s3(ENV['FILE_NAME'])
