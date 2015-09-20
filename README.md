@@ -16,6 +16,7 @@
 
 ```sh
 docker run --rm \
+  --env "TZ=Asia/Tokyo" \
   --volume /path/to/host_dir:/path/to/container_dir \
   --env 'ACCESS_KEY_ID=AKXXXXXXXXXXXXXXXXXX' \
   --env 'SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' \
@@ -35,6 +36,7 @@ output.
 
 ```sh
 docker run --rm \
+  --env "TZ=Asia/Tokyo" \
   --volume /path/to/host_dir:/path/to/container_dir \
   --env 'ACCESS_KEY_ID=AKXXXXXXXXXXXXXXXXXX' \
   --env 'SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' \
@@ -55,6 +57,7 @@ output.
 
 ```sh
 docker run --rm \
+  --env "TZ=Asia/Tokyo" \
   --volume /path/to/host_dir:/path/to/container_dir \
   --env 'ACCESS_KEY_ID=AKXXXXXXXXXXXXXXXXXX' \
   --env 'SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' \
@@ -75,6 +78,7 @@ output.
 
 ```sh
 docker run --rm \
+  --env "TZ=Asia/Tokyo" \
   --volume /path/to/host_dir:/path/to/container_dir \
   --env 'ACCESS_KEY_ID=AKXXXXXXXXXXXXXXXXXX' \
   --env 'SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' \
